@@ -1,9 +1,18 @@
 // 9) Programa una función que obtenga un numero aleatorio entre 501 y 600.
-function numeroAleatorio(){
-return Math.floor((Math.random() * 100) + 501);
+function numeroAleatorio() {
+  return Math.floor((Math.random() * 100) + 501);
 }
+
+console.info("Generando número aleatorio...");
 console.log(numeroAleatorio());
+
+console.warn("Llamando a la función sin imprimir el resultado...");
 numeroAleatorio();
+
+console.error("Llamada inválida a la función");
+console.log(numeroAleatorio(10));
+
+
 
 
 // 10) Programa una función que reciba un número y evalúe si es capicúa o no 
